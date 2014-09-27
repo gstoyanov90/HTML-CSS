@@ -1,0 +1,21 @@
+.body{
+	background-color: #ADD8E6;
+}
+.image{
+	border-color:#433C28;
+	border-style: solid;
+    border-width: 2px;
+    width: 160px;
+    height: 160px;
+
+}
+.paragraph{
+	margin-top: -0.3cm;
+}
+.italyc{
+	font-style: italic;
+}
+.tab{
+	text-indent: 2.5em;
+	margin-top: -0.3cm;
+}
