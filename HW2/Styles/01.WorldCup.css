@@ -5,7 +5,7 @@
 }
 
 table {
-	border-collapse: collapse;
+
 	border-spacing: 0;
 }
 /*Making the scorboard and the table*/
@@ -20,51 +20,40 @@ table {
 	width: 1174px;
 	height: 400px;
 	vertical-align: middle;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 }
 td, tr, th{
 	height: 67px;
+	border: 1px solid black;
 }
-.large{
-	width: 540px;
-}
-.country{
-	width: 220px
+
+.country2{
+	width: 220px;
 }
 .result{
 	width: 115px;
 }
-.rounded{
-	width: 1174px;
-	border-radius: 20px;
-	border: 2px solid black;
-	vertical-align: middle;
-	background-color: #FFFFFF;
-	margin: 0 auto;
-	background-color: #F8C711;
+
+/*Rounding the corners*/
+.topLeft{
+	width: 220px;
+	border-top-left-radius: 25px;
 }
-.mesure{
+.topRight{
+	width: 540px;
+	border-top-right-radius: 25px;
+}
+.bottomLeft{
+	width: 220px;
+	border-bottom-left-radius: 25px;
+}
+.bottomRight{
+	width: 540px;
+	border-bottom-right-radius: 25px;
 	width: 64px;
 	text-align: center;
 }
 
-table td, table th {
-  border: 2px solid black;
-}
-table tr:first-child th {
-  border-top: 0;
-}
-table tr:last-child td {
-  border-bottom: 0;
-}
-table tr td:first-child,
-table tr th:first-child {
-  border-left: 0;
-}
-table tr td:last-child,
-table tr th:last-child {
-  border-right: 0;
-}
 /*Making buttons, should use Enable and Disable instead of green and red*/
 input[type=button] {
     color:white;
@@ -79,9 +68,13 @@ input[type=button] {
 .green{
     background:green;
 }
+.mesure{
+	width: 64px;
+	text-align: center;
+}
 /*Background colors and Fonts*/
 .header{
-
+	background-color: #F8C711;
 	font-family: Tahoma;
 	font-weight: bold;
 }
