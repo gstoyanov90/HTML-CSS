@@ -3,6 +3,13 @@
 	margin:0px;
     padding:0px;
 }
+body{
+	font-family: "tahoma";
+
+}
+h1{
+	font-size: 170%;
+}
 
 table {
 
@@ -25,27 +32,33 @@ table {
 td, tr, th{
 	height: 67px;
 	border: 1px solid black;
+
 }
 
-.country2{
+.country{
 	width: 220px;
+	text-align: left;
 }
 .result{
 	width: 115px;
+	text-align: center;
 }
 
 /*Rounding the corners*/
 .topLeft{
 	width: 220px;
 	border-top-left-radius: 25px;
+	text-align: right;
 }
 .topRight{
 	width: 540px;
 	border-top-right-radius: 25px;
+	text-align: center;
 }
 .bottomLeft{
 	width: 220px;
 	border-bottom-left-radius: 25px;
+	text-align: right;
 }
 .bottomRight{
 	width: 540px;
@@ -77,10 +90,21 @@ input[type=button] {
 	background-color: #F8C711;
 	font-family: Tahoma;
 	font-weight: bold;
+
 }
 .greyRow{
 	background-color: #C8C8C8;
 }
 .whiteRow{
 	background-color: #FFFFFF;
+}
+.leftAlign{
+	text-align: left;
+}
+.centerAlign{
+	text-align: center;
+	width: 118px;
+}
+.rightAlign{
+	text-align: right;
 }
