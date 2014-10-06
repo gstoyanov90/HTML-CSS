@@ -1,0 +1,14 @@
+.head{
+	background-color: #008000;
+	color:#EDED00;
+	text-align: center;	
+	height: 60px;
+	font-size: 200%;
+	font-weight:bold;
+	width: 350px;
+}
+.redHeader{
+	background-color: red;
+	height: 60px;
+	width: 500px;
+}
