@@ -7,10 +7,16 @@ body{
 	background-repeat: repeat;
 	font-size: 14px;
 	font-family: tahoma;
+	width:100%;
 }
 
-body > header{
-	background: linear-gradient(to right, #ff0300 33.33%, #007b08 33.34%, #007b08 66.67%, #1500fc 66.68%);
+body > header:nth-child(1){
+	background: linear-gradient(
+		to right, 
+		#ff0300 33.33%, 
+		#007b08 33.34%, 
+		#007b08 66.67%, 
+		#1500fc 66.68%);
 	text-align: center;
 	color: yellow;
 	height: 60px;
@@ -45,8 +51,78 @@ li{
     padding: 6px 0 6px 40px;
     font-size: 1.3em;
     display: block;
+    margin-right: 20px;
+	border-radius: 7px;
 }
 li a{
 	text-decoration: none;
 	color:black;
 }
+nav ul a:visited{
+	color: #bdbdbd;
+}
+ul > li:nth-child(1):hover{
+	background-color: red;
+
+}
+ul > li:nth-child(2):hover{
+	background-color: orange;
+
+}
+ul > li:nth-child(3):hover{
+	background-color: yellow;
+}
+ul > li:nth-child(4):hover{
+	background-color: green;
+}
+ul > li:nth-child(5):hover{
+	background-color: blue;
+}
+ul > li:nth-child(6):hover{
+	background-color: purple;
+}
+section article{
+	background-color: rgba(255, 255, 255, 0.9);
+	float: right;
+	display: block;
+	margin-left: 300px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 10px;
+
+}
+section article header{
+	border-radius: 7px;
+	height: 60px;
+	font-size: 2em;
+	font-weight: bold;
+	display: table-cell;
+    vertical-align:middle;
+    width:5%; /*Защо работи с 5%, а не с 95% ? Кое приема за дължина и взима от него за процента?*/
+}
+section article:nth-child(1) header{
+	color:white;
+	background-color: red;
+}
+section article:nth-child(2) header{
+	color:black;
+	background-color: orange;
+}
+section article:nth-child(3) header{
+	color:black;
+	background-color: yellow;
+}
+section article:nth-child(4) header{
+	color:white;
+	background-color: green;
+}
+section article:nth-child(5) header{
+	color:white;
+	background-color: blue;
+}
+section article:nth-child(6) header{
+	color:white;
+	background-color: purple;
+}
+
