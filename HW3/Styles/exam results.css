@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding: 0;
+}
+table{
+	width:400px;
+}
+table, th, td {
+   border: 1px solid black;
+}
+thead{
+	text-align: left;
+}
+td{
+	padding-left: 5px;
+}
+tfoot{
+	text-align: right;
+	
+}
+tfoot > tr > td{
+	padding-right: 5px;
+}
+tr{
+	height:2em;
+}
+tbody tr:nth-child(1){
+	font-weight: bold;
+	text-align: center;
+}

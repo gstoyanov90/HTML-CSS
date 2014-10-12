@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: tahoma;
+}
+img{
+	width:150px;
+	height:150px;
+
+}
+table, th, td {
+   border: 1px solid black;
+}
+table{
+    border-collapse: separate;
+    width:200px;
+}
+
+table td:nth-child(1){
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nestedRow {
+	height:75px;
+	font-size: 3em;
+	width:150px;
+}
+
+table table{
+	margin:10px;
+}
