@@ -125,4 +125,23 @@ section article:nth-child(6) header{
 	color:white;
 	background-color: purple;
 }
-
+section div::first-letter{
+	font-size: 400%;
+}
+section div::first-line{
+	font-style: italic;
+}
+article span:lang(la):before{
+	content: "\"";
+}
+article span:lang(la):after{
+	content: "\"";
+}
+article span:lang(la){
+	font-style: italic;
+	color:#2e1974;
+}
+article a{
+	color:#bdbdbd;
+	font-style: italic;
+}
